@@ -1,0 +1,48 @@
+baseURL: 'http://www.yejsgk.top'
+languageCode: en-us
+title: My Web
+theme: PaperMod
+menu:
+  main:
+    - name: Home
+      url: /
+      weight: 5
+    - name: Archives
+      url: archives/
+      weight: 20
+    - name: Notes
+      url: notes/
+      weight: 10
+    - name: Search
+      url: search/
+      weight: 20
+# for search page
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+params:
+  ShowCodeCopyButtons: true
+  ShowPageNums: true
+  homeInfoParams:
+    Title: "FengWei's Web"
+    Content: >
+      👋 Welcome to my Web!
+
+      - My Name is Yu-Wei Feng, I will share my life here, such as some daily thoughts, notes, etc.
+
+      - Feel free to browse this site!
+
+      - > *My native language is Chinese, but I will try my best to write the blog in English.
+  socialIcons:
+    - name: github
+      title: View My Github
+      url: "https://github.com/novel2430"
+    - name: Instagram
+      title: My Instagram
+      url: "https://www.instagram.com/fongyuwei"
