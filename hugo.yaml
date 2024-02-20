@@ -78,6 +78,9 @@ markup:
 params:
   ShowCodeCopyButtons: true
   ShowPageNums: true
+  mainSections:
+    - notes
+    - ideas
   assets:
     favicon: /img/favicon/favicon.ico
     favicon16x16: /img/favicon/favicon16x16.png
