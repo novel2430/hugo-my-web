@@ -1,21 +1,27 @@
-baseURL: 'http://www.yejsgk.top'
+baseURL: ''
 languageCode: en-us
-title: My Web
+title: My Web | Wei, Feng
 theme: PaperMod
 menu:
   main:
     - name: Home
       url: /
       weight: 5
-    - name: Archives
-      url: archives/
-      weight: 20
     - name: Notes
       url: notes/
       weight: 10
+    - name: Ideas
+      url: ideas/
+      weight: 10
+    - name: Tags
+      url: tags/
+      weight: 20
+    - name: Archives
+      url: archives/
+      weight: 30
     - name: Search
       url: search/
-      weight: 20
+      weight: 30
 # for search page
 outputs:
   home:
@@ -26,9 +32,58 @@ taxonomies:
   category: categories
   tag: tags
   series: series
+markup:
+  goldmark:
+    extensions:
+      cjk:
+        eastAsianLineBreaks: false
+        eastAsianLineBreaksStyle: simple
+        enable: false
+        escapedSpace: false
+      definitionList: true
+      footnote: true
+      linkify: true
+      linkifyProtocol: https
+      passthrough:
+        delimiters:
+          block: []
+          inline: []
+        enable: false
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer:
+        apostrophe: '&rsquo;'
+        disable: false
+        ellipsis: '&hellip;'
+        emDash: '&mdash;'
+        enDash: '&ndash;'
+        leftAngleQuote: '&laquo;'
+        leftDoubleQuote: '&ldquo;'
+        leftSingleQuote: '&lsquo;'
+        rightAngleQuote: '&raquo;'
+        rightDoubleQuote: '&rdquo;'
+        rightSingleQuote: '&rsquo;'
+    parser:
+      attribute:
+        block: false
+        title: true
+      autoHeadingID: true
+      autoHeadingIDType: github
+      wrapStandAloneImageWithinParagraph: true
+    renderer:
+      hardWraps: false
+      unsafe: true
+      xhtml: false
 params:
   ShowCodeCopyButtons: true
   ShowPageNums: true
+  assets:
+    favicon: /img/favicon/favicon.ico
+    favicon16x16: /img/favicon/favicon16x16.png
+    favicon32x32: /img/favicon/favicon32x32.png
+    apple_touch_icon: /img/favicon/apple-touch-icon.png
+    # safari_pinned_tab:
   homeInfoParams:
     Title: "FengWei's Web"
     Content: >
