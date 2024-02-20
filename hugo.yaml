@@ -1,4 +1,4 @@
-baseURL: ''
+baseURL: 'https://www.yejsgk.top'
 languageCode: en-us
 title: My Web | Wei, Feng
 theme: PaperMod
@@ -89,14 +89,22 @@ params:
     # safari_pinned_tab:
   homeInfoParams:
     Title: "FengWei's Web"
-    Content: >
-      👋 Welcome to my Web!
-
-      - My Name is Yu-Wei Feng, I will share my life here, such as some daily thoughts, notes, etc.
-
-      - Feel free to browse this site!
-
-      - > *My native language is Chinese, but I will try my best to write the blog in English.
+    Content: 
+      <div align=center>
+        <br>
+        <img src="https://cloud.yejsgk.top/f/K8Ul/00000.jpg" width="200" >
+        <br>
+        <h1>👋 Welcome to my Web!</h1>
+        <p>
+            My Name is <strong>Yu-Wei Feng</strong>, I will share my life here, such as some daily thoughts, notes, etc.
+        </p>
+        <p>
+            Feel free to browse this site!
+        </p>
+        <blockquote>
+          *My native language is Chinese, but I will try my best to write the blog in English.
+        </blockquote>
+      </div>
   socialIcons:
     - name: github
       title: View My Github
