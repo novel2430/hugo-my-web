@@ -192,7 +192,7 @@ passwd
 ```
 ### [ Enable NetworkManager Service ]
 ```sh
-systemctl enabel NetworkManager.service 
+systemctl enable NetworkManager.service 
 ```
 We are now in chroot, so we do not need to start `NetworkManager` service. After bootloader installed and reboot to system, the `NetworkManager` will start automatically.
 ### [ Install Microcode ]
