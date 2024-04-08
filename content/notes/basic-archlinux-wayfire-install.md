@@ -378,7 +378,7 @@ sudo pacman -S curl clash
 You can use `curl` to get your `config.yaml`
 ```sh
 cd <your_clash_directory>
-curl https://gitee.com/mirrors/Pingtunnel/blob/master/GeoLite2-Country.mmdb > ./Country.mmdb
+curl https://gitee.com/mirrors/Pingtunnel/raw/master/GeoLite2-Country.mmdb > ./Country.mmdb
 curl <your_sub_url> > ./config.yaml
 ```
 Edit clash systemd unit
