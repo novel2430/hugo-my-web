@@ -1,5 +1,5 @@
 ---
-title: 'ZJU_postgraduate_entrance examination sharing'
+title: 'ZJU postgraduate entrance examination sharing'
 date: 2024-12-14T13:57:42+08:00
 draft: false
 categories: 
